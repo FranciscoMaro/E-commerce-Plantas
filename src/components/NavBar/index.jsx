@@ -8,18 +8,18 @@ const NavBar = () => {
 			<nav className="nav">
 				<div className="nav__brand">
 					<NavLink className="nav__link" to="/">
-						MiMarca
+						Todos los productos
 					</NavLink>
 				</div>
 				<ul className="nav__list">
 					<li>
-						<NavLink className="nav__link" to="/categoria/films">
-							Películas
+						<NavLink className="nav__link" to="/categoria/citricos">
+							Citricos
 						</NavLink>
 					</li>
 					<li>
-						<NavLink className="nav__link" to="/categoria/series">
-							Series
+						<NavLink className="nav__link" to="/categoria/pinos">
+							Pinos
 						</NavLink>
 					</li>
 					<li>
